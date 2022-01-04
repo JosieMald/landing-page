@@ -9,6 +9,14 @@ li {
     display: inline;
 }
 
+header {
+    /* position: fixed; */
+    background-color: #F6C103;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+}
+
 /* Class Selectors */
 .text-right {
     text-align: right;
