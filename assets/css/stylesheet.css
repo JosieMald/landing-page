@@ -4,5 +4,13 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+/* Element Selector */
+li {
+    display: inline;
+}
 
+/* Class Selectors */
+.text-right {
+    text-align: right;
+}
 
