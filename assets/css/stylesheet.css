@@ -11,7 +11,7 @@
 body {
     /* position: relative; */
 }
-li {
+a {
     display: inline;
     padding: 5px;
 }
@@ -24,9 +24,6 @@ main {
     padding: 60px 0;
 }
 
-.name, .email {
-    vertical-align: top;
-}
 
 figure { 
     /* repeat of class--------------- */
@@ -41,6 +38,12 @@ header {
     line-height: 60px;
 }
 
+footer {
+    background-color: #2ec4b6;
+    height: 60px;
+    line-height: 60px;
+}
+
 /* Class Selectors */
 .text-right {
     text-align: right;
@@ -49,4 +52,10 @@ header {
 .text-center {
     text-align: center;
 }
+
+.name, .email {
+    vertical-align: top;
+}
+
+/* id selectors */
 
