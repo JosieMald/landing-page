@@ -18,6 +18,7 @@ a {
 
 form {
     display: block;
+    padding: 10px;
 }
 
 main {
@@ -30,6 +31,11 @@ figure {
     text-align: center;
 }
 
+section {
+    padding-top: 10px;
+    background-color: #cbf3f0;
+}
+
 header {
     /* position: fixed; */
     background-color: #F6C103;
@@ -38,10 +44,21 @@ header {
     line-height: 60px;
 }
 
+input {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+}
+
+
+
 footer {
     background-color: #2ec4b6;
     height: 60px;
+    width: 100%;
     line-height: 60px;
+    bottom: 0;
+    position: fixed;
 }
 
 /* Class Selectors */
